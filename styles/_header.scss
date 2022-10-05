@@ -1,0 +1,92 @@
+.header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 10;
+    padding: 25px 150px;
+  
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    .container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    }
+    &__logo{
+        width: 150px;
+       a{
+        font-size: 2rem;
+        letter-spacing: 3px;
+        color: #1A6DD9;
+        font-weight: 900;
+       } 
+    }
+    &__menu{
+        width: calc(100% - 250px);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0px;
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+    }
+    &__anchor-nav{
+        display: flex;
+        li{
+            margin-right: 50px;
+        }
+    }
+    &__anchor-nav{
+        display: flex;
+        li{
+            margin-right: 30px;
+            a{
+                text-transform: uppercase;
+                transition: all 0.3s ease-in-out;
+                &:hover{
+                    color: #1A6DD9;
+                }
+            }
+        }
+        li:last-child{
+            margin-right: 0px;
+        }
+        
+    }
+    &__profile-nav{
+        display: flex;
+        li{
+            margin-right: 50px;
+            a{
+                text-transform: uppercase;
+                padding: 5px 25px;
+                border: 1px solid #1A6DD9;
+                border-radius: 10px;
+                color: #1A6DD9;
+                &:hover{
+                    
+                }
+            }
+        }
+        li:last-child{
+            margin-right: 0px;
+            a{
+                color: white;
+                padding: 5px 25px;
+                border: 1px solid #1A6DD9;
+                border-radius: 10px;
+                background: #1A6DD9;
+                &:hover{
+                    
+                }
+            }
+        }
+    }
+}

@@ -11,8 +11,8 @@ export default function Home() {
     <MainLayout>
       {/* <MobileHeader /> */}
       <Header />
-      {/* <Hero />
-      <Footer /> */}
+      <Hero />
+      {/* <Footer /> */} 
     </MainLayout>
   )
 }

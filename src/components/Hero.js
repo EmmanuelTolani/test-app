@@ -28,8 +28,9 @@ const Hero = () => {
         <div className="hero__image">
             <div className="hero__info">
             <span className="hero__subtitle">Learn Faster Now.</span>
-            <span className="hero__subtitle2">Learn Smarter.</span>
+            <span className="hero__subtitle2">Study Smarter.</span>
                <h1 className="hero__title">Anki Quizes</h1>
+               <span className="hero__p">Study with Anki spaced repetition platform and boost learning for the rest of your life.</span>
                <div className="hero__info-links">
                     <a href='#'>Try for free!</a>
                </div>

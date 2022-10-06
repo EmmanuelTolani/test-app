@@ -1,0 +1,68 @@
+.hero {
+    position: relative;
+    max-height: 100vh;
+    overflow: hidden;
+    &__image {
+        background: linear-gradient(70deg, #1CB5E0 0%, #000851 100%);
+        overflow: hidden;
+        // flex-shrink: 0;
+        width: 100%;
+        position: relative;
+    }
+
+    &__info {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 20%;
+        left: 10%;
+    }
+
+    &__subtitle {
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: white;
+        margin-bottom: 20px;
+       
+    }
+    &__subtitle2{
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: white;
+        margin-bottom: 40px;  
+    }
+
+    &__title {
+        font-size: 5.8rem;
+        color: white;
+        width: 400px;
+        font-weight: 700;
+        line-height: 1;
+        margin-bottom: 80px;
+    }
+
+    &__info-links {
+        color: white;
+        font-size: 1rem;
+        font-weight: 400;
+        text-decoration: none;
+
+        a {
+            margin-right: 20px;
+            color: #1A6DD9;
+            background: white;
+            padding: 20px 50px;
+            border-radius: 5px;
+        }
+    }
+
+    &__image-img {
+        float: right;
+        overflow: hidden;
+        flex-shrink: 0;
+        width: 55%;
+        height: 70vh;
+        object-fit: cover;
+        object-position: top;
+    }
+}

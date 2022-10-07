@@ -8,6 +8,7 @@ import Offer from '../src/components/Offer'
 import Pricing from '../src/components/Pricing'
 
 import Reviews from '../src/components/Reviews'
+import Stats from '../src/components/Stats'
 import Video from '../src/components/Video'
 import MainLayout from '../src/layouts/MainLayout'
 
@@ -20,6 +21,7 @@ export default function Home() {
       <Offer />
       <Reviews />
       <Video />
+      <Stats />
       <Pricing /> 
       <Footer /> 
     </MainLayout>

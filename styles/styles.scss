@@ -1,6 +1,13 @@
 @use './reset';
 @use './header';
+@use './footer';
 @use './hero';
+@use './offers';
+@use './reviews';
+@use './video';
+@use './pricing';
+
+
 html{
   overflow-x: hidden;
   padding: 0px;
@@ -23,6 +30,12 @@ body {
     font-weight: 400;
     background-color: #fff;
     color: var(--main-color);
+}
+*{
+  .container{
+    max-width: 1366px;
+    margin: 0 auto;
+  }
 }
 
 a {

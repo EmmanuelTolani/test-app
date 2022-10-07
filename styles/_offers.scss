@@ -1,0 +1,45 @@
+.offers{
+    padding: 75px 50px 150px;
+    display: flex;
+    justify-content: center;
+    &__title-box{
+        margin-bottom: 75px;
+        text-align: center;
+    }
+    &__title{
+        font-size: 2rem;
+        font-weight: 700;
+        color: #374A7C;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    &__all{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 2rem;
+    }
+    &__offer{
+        text-align: center;
+        padding: 20px 10px
+    }
+    &__offer-info{
+    
+    }
+    &__offer-logo{
+        .fa-regular, .fa-solid{
+            font-size: 4rem;
+            margin-bottom: 50px;
+            color: #2D73DE;
+        }
+    }
+    &__offer-title{
+        color: #374A7C;
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+    &__offer-p{
+        font-size: 0.9rem;
+        line-height: 150%;
+        color: #84858c;
+    }
+}

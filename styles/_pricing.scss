@@ -1,0 +1,48 @@
+.pricings{
+    padding: 75px 50px 150px;
+    display: flex;
+    justify-content: center;
+    &__title-box{
+        margin-bottom: 75px;
+        text-align: center;
+    }
+    &__title{
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: #374A7C;
+        margin-bottom: 20px;
+    }
+    &__all{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 2rem;
+    }
+    &__pricing{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        height: 500px;
+        padding: 100px 20px;
+        background: #F0F3F8;
+    }
+    &__pricing-info{
+    }
+    &__pricing-logo{
+        .fa-regular, .fa-solid{
+            font-size: 4rem;
+            margin-bottom: 50px;
+            color: #2D73DE;
+        }
+    }
+    &__pricing-title{
+        color: #374A7C;
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+    &__pricing-p{
+        font-size: 0.9rem;
+        line-height: 150%;
+        color: #84858c;
+    }
+}

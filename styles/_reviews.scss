@@ -1,0 +1,116 @@
+.reviews {
+    background: #F6F7FB;
+    padding: 75px 50px 150px;
+
+    &__container {
+        max-width: 1200px;
+        width: 100%;
+        margin: auto;
+
+    }
+
+    &__all {
+        display: flex;
+        justify-content: space-evenly;
+        gap: 20px;
+    }
+
+    &__title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h2 {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #374A7C;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        p {
+           margin-bottom: 3rem;
+            text-align: center;
+
+            br {
+                display: none;
+            }
+
+        }
+    }
+
+    &__single-review {
+        background: white;
+      padding: 80px 30px;
+       display: flex;
+       align-items: flex-start;
+        &:nth-child(1) {}
+
+        &:nth-child(2) {
+            display: none;
+        }
+        &:hover {
+            
+        }
+    }
+
+    &__img {
+        margin-top: -20px;
+        margin-right: 20px;
+        img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+    }
+
+    &__review {
+        display: flex;
+        flex-direction: column;
+        p {
+            text-align: left;
+            line-height: 130%;
+            margin-bottom: 1rem;
+           
+        }
+    }
+
+    &__user {
+        h5 {
+            font-weight: 500;
+            color: #374A7C;
+            font-size: 20px;
+            // line-height: 30px;
+            text-align: left;
+        }
+    }
+
+
+}
+
+
+
+
+// Extra small devices (phones, 600px and down)
+@media only screen and (max-width: 566px) {}
+
+// Extra small devices (phones, 600px and down)
+@media only screen and (min-width: 567px) {}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 767px) {
+    .drone-reviews {
+        // &__reviews {
+        //     flex-direction: column;
+        // }
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

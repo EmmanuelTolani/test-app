@@ -6,6 +6,7 @@ import Hero from '../src/components/Hero'
 import MobileMenu from '../src/components/MobileMenu'
 import Offer from '../src/components/Offer'
 import Pricing from '../src/components/Pricing'
+import Quiz from '../src/components/Quiz/Quiz'
 import Reviews from '../src/components/Reviews'
 import MainLayout from '../src/layouts/MainLayout'
 
@@ -14,6 +15,7 @@ export default function Test() {
     <MainLayout>
       <MobileMenu />
       <Header />
+      <Quiz />
       <Footer />
     </MainLayout>
   )

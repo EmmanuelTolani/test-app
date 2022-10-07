@@ -26,12 +26,12 @@ const Header = () => {
     <div className="header">
       <div className="container">
         <div className="header__logo">
-          <a href="#">Anki</a>
+          <a href="/">Anki</a>
         </div>
         <div className="header__menu">
           <ul className="header__anchor-nav">
             <li>
-              <a href="#" alt="test">
+              <a href="/test" alt="test">
                 Test
               </a>
             </li>

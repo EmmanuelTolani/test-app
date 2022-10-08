@@ -1,7 +1,7 @@
 .quiz {
     // height: 100vh;
     padding: 50px 100px;
-
+    
     &__title {
         text-align: center;
         font-size: 2.5rem;
@@ -12,58 +12,57 @@
 
 .question-box {
     width: 100%;
-
+    &__subtitle{
+        text-align: center;
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        color: #FFB904;
+        font-weight: 600;
+        margin-bottom: 1rem;
+    }
     &__question {
         font-size: 1.6rem;
         line-height: 130%;
-        font-weight: 300;
+        font-weight: 700;
         margin-bottom: 2rem;
-        color: #374A7C;
-        text-align: left;
+        color: #172035;
+        text-align: center;
     }
 
     &__answers {
         width: 100%;
         margin-bottom: 30px;
         text-align: left;
-
-        span {
-            color: black;
+        background: #F2F2F2;
+        padding: 10px;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: all .3s ease-in-out;
+        display: flex;
+        align-items: center;
+        color: black;
             margin-left: 20px;
             font-size: 1.2rem;
             text-transform: capitalize;
-
-        }
-
-        .answerBtn {
-            border: none;
-            color: #374A7C;
-            padding: 10px 15px;
-            text-align: center;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 700;
-            border-radius: 50%;
-            cursor: pointer;
-            transition: all .3s ease-in-out;
-
-            &:hover {
-                background-color: #374A7C;
-                color: white;
-            }
-        }
-        .active {
+        &:hover {
             background-color: #374A7C;
             color: white;
-            padding: 10px 15px;
-            border: none;
-            text-align: center;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 700;
-            border-radius: 50%;
-            cursor: pointer;
-            transition: all .3s ease-in-out;
         }
+    }
+    &__answer-index {
+        border: none;
+        background: rgba(255,255,255,0.4);
+        padding: 8px 10px;
+        margin-right: 10px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 700;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    &__answer{
+        font-weight: 300;
+        font-size: 1rem;
     }
 }

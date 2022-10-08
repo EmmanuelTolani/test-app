@@ -21,7 +21,7 @@ const defaultProps = {};
 /**
  * 
  */
-const QuestionBox = ({ question, options, selected, index}) => {
+const QuestionBox = ({ question, options, selected, index, number}) => {
    function indextoChar(index) {
         switch(index){
             case 0: 
@@ -49,22 +49,23 @@ const QuestionBox = ({ question, options, selected, index}) => {
     // }
     return(
         <div className="question-box">
-        <h1 className="question-box__question">{index}. {question}</h1>
+         <p className='question-box__subtitle'>Question {index} / {number}</p>
+        <h1 className="question-box__question">{question}</h1>
         {options.map((text, index) => (
-        <div className='question-box__answers' key={index}>
-          <button
-              
-              className='answerBtn'
-              style={{ backgroundColor: index === isActive ? "#374A7C" : "" ,
-                color: index === isActive ? "white" : ""}}
-              onClick={()=>{
+        <div className='question-box__answers' key={index}  style={{ backgroundColor: index === isActive ? "#374A7C" : "" ,
+        color: index === isActive ? "white" : ""}}  onClick={()=>{
                 setIsActive(index)
                 let answer = text;
                  console.log(answer)
                    selected(answer)
-                  }}> {indextoChar(index)}
-         </button>
-         <span>{text}</span>
+                  }}>
+          <span
+              
+              className='question-box__answer-index'
+             
+             > {indextoChar(index)}
+         </span>
+         <span className='question-box__answer'>{text}</span>
          </div>
         ),)}
     </div>

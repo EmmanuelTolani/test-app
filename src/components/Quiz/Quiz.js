@@ -16,24 +16,26 @@ export default class Quiz extends Component {
   }
 
   getQuestions = () => {
-    questionAPI2().then((question) => {
+    questionAPI().then((question) => {
       this.setState({ questionList: question });
     });
   };
 
   showAllQuestions = () => {
     let length = this.state.questionList.length;
+    let numberofQuestions = this.state.questionList.length;
     return (
       this.state.questionList.length > 0 &&
       this.state.submitted === false &&
       this.state.questionList.map(
-        ({ question, answers, correct, questionId }) => (
+        ({ question, answers, correct, questionId}) => (
           <QuestionBox
             question={question}
             options={answers}
             key={questionId}
             selected={(answer) => this.computeAnswer(answer, correct)}
             index={(++length - 10)}
+            number={numberofQuestions}
           />
         )
       )
@@ -82,7 +84,7 @@ export default class Quiz extends Component {
     return (
       <div className="quiz">
         <div className="container">
-          <div className="quiz__title">Anki Quiz</div>
+          {/* <div className="quiz__title">Anki Quiz</div> */}
           <div className="quiz__questions-all">{this.showAllQuestions()}</div>
           <div className="quiz__questions-all">{this.showResult()}</div>
          <div className="quiz__questions-submit">

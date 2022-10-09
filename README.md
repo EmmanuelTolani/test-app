@@ -1,6 +1,6 @@
 This is a React.js & Next.js project integrated with SASS. It provides a pixel-perfect responsive design and allow users to take quizzes. 
 
-Data for all the quizzes: (../../tree/main/components/question)
+Data for all the quizzes: [Quizzes](../../tree/main/components/question)
 ## How I worked on this project
 * I divided the layout into several smaller user interface components.
 * I worked with tasks on a Kanban board to keep the project organized.
@@ -36,7 +36,8 @@ Data for all the quizzes: (../../tree/main/components/question)
 
 ## How to navigate this project
 * [Layout](../../tree/main/src/layouts)
-* [UI components with Logic and styles](../../tree/main/src/components/UI)
+* [Layout UI components with Logic](../../tree/main/src/components/UI)
+* [All other UI components](../../tree/main/src/components/UI)
 * [Quiz component implementation ](../../tree/main/src/components/Quiz)
 
 

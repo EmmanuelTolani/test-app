@@ -12,7 +12,7 @@ Data for all the quizzes: [Quizzes](../../tree/main/src/components/question)
 # Demo 
 
 ## Landing Page
-![The View of the Landing Page](ankii-1.gif)
+![The View of the Landing Page](ankii-3.gif)
 
 ## Quiz
 ![Quiz walkthrough](ankii-2.gif)

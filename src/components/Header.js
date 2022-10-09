@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import Link from 'next/link';
 
 // #region constants
 
@@ -26,31 +27,31 @@ const Header = () => {
     <div className="header">
       <div className="container">
         <div className="header__logo">
-          <a href="/">Anki</a>
+          <Link href="/">Anki</Link>
         </div>
         <div className="header__menu">
           <ul className="header__anchor-nav">
             <li>
-              <a href="/test" alt="test">
+              <Link href="/test" alt="test">
                 Test
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/" alt="courses">
+              <Link href="/" alt="courses">
                 Courses
-              </a>
+              </Link>
             </li>
           </ul>
           <ul className="header__profile-nav">
             <li>
-              <a href="/" alt="login">
+              <Link href="/" alt="login">
                 Login
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/" alt="sign up">
+              <Link href="/" alt="sign up">
                 Sign Up
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

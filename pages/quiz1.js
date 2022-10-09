@@ -9,7 +9,6 @@ import Pricing from '../src/components/Pricing'
 import Quiz from '../src/components/Quiz/Quiz'
 import Reviews from '../src/components/Reviews'
 import MainLayout from '../src/layouts/MainLayout'
-import questionAPI from '../src/components/question/qBank2'
 
 export default function Test() {
   return (

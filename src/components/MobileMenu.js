@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Link from 'next/link';
 
 const MobileMenu = () => {
   const [toggle, setToggle] = useState(false);
@@ -13,9 +14,9 @@ const MobileMenu = () => {
 			<div className="mobile-menu__container">
 				<div className="mobile-menu__in">
 					<div className="mobile-menu__logo">
-						<a href="/" style={mobileLogo}>
-							Anki
-						</a>
+						<Link href="/" >
+							<a style={mobileLogo}>Anki</a>
+						</Link>
 					</div>
 					<div className="trigger" onClick={() => setToggle(!toggle)}>
 						<div
@@ -34,19 +35,19 @@ const MobileMenu = () => {
 				<div className="dropdown_inner">
 					<ul className="anchor_nav">
 						<li>
-							<a href="/">Home</a>
+							<Link href="/">Home</Link>
 						</li>
 						<li>
-							<a href="/test">Test</a>
+							<Link href="/test">Test</Link>
 						</li>
 						<li>
-							<a href="/">Course</a>
+							<Link href="/">Course</Link>
 						</li>
 						<li>
-							<a href="/">Sign Up</a>
+							<Link href="/">Sign Up</Link>
 						</li>
 						<li>
-							<a href="/">Login</a>
+							<Link href="/">Login</Link>
 						</li>
 					</ul>
 				</div>

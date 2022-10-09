@@ -28,7 +28,7 @@ const Pricing = () => {
       <div className="container">
         <div className="pricings__title-box">
           <h2 className="pricings__title">Pricing</h2>
-          <span className="pricings__p">We don't brag, but we don't mind letting our students do it for us.</span>
+          <span className="pricings__p">We don&apos;t brag, but we don&apos;t mind letting our students do it for us.</span>
         </div>
         <div className="pricings__all">
           <div className="pricings__pricing">

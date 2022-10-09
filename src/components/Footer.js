@@ -1,6 +1,7 @@
 import React from "react";
 // import styled from 'styled-components';
 import PropTypes from "prop-types";
+import Link from 'next/link';
 
 // #region constants
 
@@ -27,18 +28,18 @@ const Footer = () => {
     <footer className="footer">
       <div className="container">
         <ul className="footer__links">
-          <li className="footer__link"><a href="#">About</a></li>
-          <li className="footer__link"><a href="#">Privacy</a></li>
-          <li className="footer__link"><a href="#">Terms</a></li>
-          <li className="footer__link"><a href="#">Contact</a></li>
-          <li className="footer__link"><a href="#">Careers</a></li>
-          <li className="footer__link"><a href="#">Challenges</a></li>
+          <li className="footer__link"><Link href="#">About</Link></li>
+          <li className="footer__link"><Link href="#">Privacy</Link></li>
+          <li className="footer__link"><Link href="#">Terms</Link></li>
+          <li className="footer__link"><Link href="#">Contact</Link></li>
+          <li className="footer__link"><Link href="#">Careers</Link></li>
+          <li className="footer__link"><Link href="#">Challenges</Link></li>
         </ul>
         <div className="footer__info">
           <div className="footer__socials">
-            <a href="#" alt="facebook"><i className="fa-brands fa-facebook"></i></a>
-            <a href="#" alt="linkedin" ><i className="fa-brands fa-linkedin"></i></a>
-            <a href="#" alt="twitter" ><i className="fa-brands fa-square-twitter"></i></a>
+            <Link href="#" alt="facebook"><i className="fa-brands fa-facebook"></i></Link>
+            <Link href="#" alt="linkedin" ><i className="fa-brands fa-linkedin"></i></Link>
+            <Link href="#" alt="twitter" ><i className="fa-brands fa-square-twitter"></i></Link>
           </div>
           <span className="footer__copyright">&copy; 2022 Anki</span>
         </div>

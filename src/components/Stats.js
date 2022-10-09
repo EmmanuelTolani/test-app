@@ -27,7 +27,7 @@ const Stats = () => {
       <div className="container">
         <div className="stats__title-box">
           <h2 className="stats__title">Let us handle the rest</h2>
-          <p>Stay focused on your goal. Here's what makes us special.</p>
+          <p>Stay focused on your goal. Here&apos;s what makes us special.</p>
         </div>
         <div className="stats__all">
           <div className="stats__stat">

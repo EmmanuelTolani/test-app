@@ -1,34 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a React.js & Next.js project integrated with SASS. It provides a pixel-perfect responsive design and allow users to take quizzes. 
 
-## Getting Started
+Data for all the quizzes: (../../tree/main/components/question)
+## How I worked on this project
+* I divided the layout into several smaller user interface components.
+* I worked with tasks on a Kanban board to keep the project organized.
 
-First, run the development server:
+## Available Scripts
+* yarn or npm install installs all dependencies
+* yarn dev or npm run dev starts the server You should be able to access the app through http://localhost:3000
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+# Demo 
+## Create User
+![Create User](create.gif)
+## Login User
+![](login.gif)
+## Search Movies
+![](search_Trim.gif)
+* Search for any movie or show and it's displayed dynamically.
+## Show Cast
+![](castcrew.gif)
+* A list of all cast and directors for each movie are displayed dynamically.
+## Watch List
+![](watchlist.gif)
+* Add movies into your watch list, or remove them from your watch list.
+## Movie List
+![](movies-Trim.gif)
+* All movies for any genre.
+## Show List
+![](shows-Trim.gif)
+* All shows for any genre.
+## Sign Out
+![](signout.gif)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## How to navigate this project
+* [Layout](../../tree/main/components/Layouts)
+* [UI components with Logic and styles](../../tree/main/components/UI)
+* [Quiz component implementation ](../../tree/main/components/Quiz)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
+## Why I built this project this way 
+* I decided to create the app with Next.js because of it's routing, fast refresh, and static file serving.
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

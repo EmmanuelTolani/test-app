@@ -1,4 +1,4 @@
-This is a React.js & Next.js project integrated with SASS. It provides a pixel-perfect responsive design and allow users to take quizzes. 
+This is a React.js & Next.js project integrated with SASS. It provides a pixel-perfect responsive design and allow users to take quizzes and show's their results at the end.
 
 Data for all the quizzes: [Quizzes](../../tree/main/src/components/question)
 ## How I worked on this project
@@ -10,10 +10,12 @@ Data for all the quizzes: [Quizzes](../../tree/main/src/components/question)
 * yarn dev or npm run dev starts the server You should be able to access the app through http://localhost:3000
 
 # Demo 
+
 ## Landing Page
-![](ankii-1.gif)
+![The View of the Landing Page](ankii-1.gif)
+
 ## Quiz
-![](ankii-2.gif)
+![Quiz walkthrough](ankii-2.gif)
 
 
 

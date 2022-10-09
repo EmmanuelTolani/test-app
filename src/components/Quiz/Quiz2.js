@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import questionAPI2 from "../question/qBank1";
-import questionAPI from "../question/qBank2";
+import questionAPI from "../question/qBank1";
 import QuestionBox from "./QuestionBox";
 import Result from "../Result";
 export default class Quiz extends Component {

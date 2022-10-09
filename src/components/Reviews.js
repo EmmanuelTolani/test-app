@@ -66,13 +66,7 @@ export default class Reviews extends Component {
           <p>Have a look at some of our reviews</p>
         </div>
         <div className="reviews__container">
-          <div className="reviews__left-arrow">
-          <i class="fa-solid fa-arrow-left"></i>
-          </div>
           <ul className="reviews__all">{this.showAllReviews()}</ul>
-          <div className="reviews__right-arrow">
-          <i class="fa-solid fa-arrow-right"></i>
-          </div>
         </div>
       </div>
     );

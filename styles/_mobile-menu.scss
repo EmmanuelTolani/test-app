@@ -5,7 +5,7 @@
     // top: 0px;
     // left: 0px;
     display: none;
-    // z-index: 10;
+    z-index: 10;
 
     &__container {
         width: 100%;
@@ -43,10 +43,11 @@
         height: auto;
         clear: both;
         float: left;
-        background-color: #fff;
+        opacity: 1;
         display: none;
-
+        z-index: 10;
         .dropdown_inner {
+            z-index: 10;
             width: 100%;
             height: auto;
             clear: both;

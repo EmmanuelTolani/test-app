@@ -13,7 +13,7 @@ const MobileMenu = () => {
 			<div className="mobile-menu__container">
 				<div className="mobile-menu__in">
 					<div className="mobile-menu__logo">
-						<a style={mobileLogo}>
+						<a href="/" style={mobileLogo}>
 							Anki
 						</a>
 					</div>
@@ -34,19 +34,19 @@ const MobileMenu = () => {
 				<div className="dropdown_inner">
 					<ul className="anchor_nav">
 						<li>
-							<a href="">Home</a>
+							<a href="/">Home</a>
 						</li>
 						<li>
-							<a href="">Test</a>
+							<a href="/test">Test</a>
 						</li>
 						<li>
-							<a href="">Course</a>
+							<a href="/">Course</a>
 						</li>
 						<li>
-							<a href="">Sign Up</a>
+							<a href="/">Sign Up</a>
 						</li>
 						<li>
-							<a href="">Login</a>
+							<a href="/">Login</a>
 						</li>
 					</ul>
 				</div>

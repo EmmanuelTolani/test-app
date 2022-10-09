@@ -9,17 +9,14 @@ import Pricing from '../src/components/Pricing'
 import Quiz from '../src/components/Quiz/Quiz'
 import Reviews from '../src/components/Reviews'
 import MainLayout from '../src/layouts/MainLayout'
-import ChooseQuiz from '../src/components/Quiz/ChooseQuiz'
+import questionAPI from '../src/components/question/qBank2'
 
 export default function Test() {
   return (
     <MainLayout>
       <MobileMenu />
       <Header />
-      <div className='all-quizes'>
-        <ChooseQuiz name="General Knowledge" difficulty={"medium"} length={10} link={'/quiz1'} />
-        <ChooseQuiz name="NBA Trivia" difficulty={"hard"} length={10} link={'/quiz2'} />
-      </div>
+      <Quiz />
       <Footer />
     </MainLayout>
   )

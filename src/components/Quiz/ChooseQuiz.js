@@ -1,5 +1,5 @@
-import React,{useState} from 'react';
-
+import React from 'react';
+import Link from 'next/link';
 import PropTypes from 'prop-types';
 
 // #region constants
@@ -22,19 +22,22 @@ const defaultProps = {};
 /**
  * 
  */
-const ChooseQuiz = () => {
-    const [quiz, setQuiz] = useState()
+const ChooseQuiz = ({name, link, difficulty, length}) => {
     return(
+        <Link href={link}>
         <div className='choose-quiz'>
-            <div>
-            <h1>Choose a Quiz</h1>
-            <div className='choose-quiz__all'>
+            <div className='container'>
                 <div className='choose-quiz__quiz'>
-                    
+                    <h1>{name}</h1>
+                    <div className='choose-quiz__info'>
+                    <p>{difficulty}</p>
+                    <p>{length} Questions</p>
+                        <a href={link}>Start Now</a>
+                    </div>
                 </div>
             </div>
-            </div>
         </div>
+        </Link>
     );
 }
 

@@ -1,6 +1,11 @@
 const qBank2 = [
     /// Category: General Knowledge
     {
+        quizName: 'General Knowledge',
+        length: 10,
+        difficulty: 'Medium'
+    },
+    {
         question:
         "What is the fastest land animal?",
         answers: ["cheetah", "giraffe", "tiger", "wolf"],
@@ -76,5 +81,5 @@ const qBank2 = [
     
     // n = 5 to export 5 question
     export default (n = 10) =>
-    Promise.resolve(qBank2.sort(() => 0.5 - Math.random()).slice(0, n));
+    Promise.resolve(qBank2);
     

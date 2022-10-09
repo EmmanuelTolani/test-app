@@ -35,7 +35,7 @@ Data for all the quizzes: (../../tree/main/components/question)
 
 
 ## How to navigate this project
-* [Layout](../../tree/main/src/components/layouts)
+* [Layout](../../tree/main/src)
 * [UI components with Logic and styles](../../tree/main/src/components/UI)
 * [Quiz component implementation ](../../tree/main/src/components/Quiz)
 

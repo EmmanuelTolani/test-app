@@ -1,32 +1,32 @@
-.header{
-    // position: fixed;
-    // top: 0px;
-    // left: 0px;
-    // right: 0px;
+.header {
     z-index: 10;
     padding: 25px 150px;
-  
+
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
-    .container{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+    .container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
-    &__logo{
+
+    &__logo {
         width: 150px;
-       a{
-        font-size: 2.2rem;
-        letter-spacing: 3px;
-        color: #1A6DD9;
-        font-weight: 900;
-       } 
+
+        a {
+            font-size: 2.2rem;
+            letter-spacing: 3px;
+            color: #1A6DD9;
+            font-weight: 900;
+        }
     }
-    &__menu{
+
+    &__menu {
         width: calc(100% - 250px);
         display: flex;
         justify-content: space-between;
@@ -36,56 +36,70 @@
         display: flex;
         align-items: center;
     }
-    &__anchor-nav{
+
+    &__anchor-nav {
         display: flex;
-        li{
+
+        li {
             margin-right: 50px;
         }
     }
-    &__anchor-nav{
+
+    &__anchor-nav {
         display: flex;
-        li{
+
+        li {
             margin-right: 30px;
-            a{
+
+            a {
                 text-transform: uppercase;
                 transition: all 0.3s ease-in-out;
-                &:hover{
+
+                &:hover {
                     color: #1A6DD9;
                 }
             }
         }
-        li:last-child{
+
+        li:last-child {
             margin-right: 0px;
         }
-        
+
     }
-    &__profile-nav{
+
+    &__profile-nav {
         display: flex;
-        li{
+
+        li {
             margin-right: 50px;
-            a{
+
+            a {
                 text-transform: uppercase;
                 padding: 5px 25px;
                 border: 1px solid #1A6DD9;
                 border-radius: 10px;
                 color: #1A6DD9;
                 transition: all .3s ease-in-out;
-                &:hover{
-                        background: rgba(0,0,0,0.2);
+
+                &:hover {
+                    background: rgba(0, 0, 0, 0.2);
                 }
             }
         }
-        li:last-child{
+
+        li:last-child {
             margin-right: 0px;
-            a{
+
+            a {
                 color: white;
                 padding: 5px 25px;
                 border: 1px solid #1A6DD9;
                 border-radius: 10px;
                 background: #1A6DD9;
                 transition: all .3s ease-in-out;
-                &:hover{
-                    background: rgba(#1A6DD9,0.8);
+
+                &:hover {
+                    background: rgba(#1A6DD9, 0.8);
                 }
             }
         }

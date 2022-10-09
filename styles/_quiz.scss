@@ -1,37 +1,42 @@
 .quiz {
     // height: 100vh;
     padding: 0 50px 100px;
-    .container{
+
+    .container {
         max-width: 900px;
     }
+
     &__title {
         text-align: center;
         font-size: 2.5rem;
         margin-bottom: 2rem;
         font-weight: 600;
     }
-    &__questions-all{
+
+    &__questions-all {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
-    &__questions-submit{
+
+    &__questions-submit {
         text-align: center;
         border: none;
         color: white;
-       padding: 10px 60px;
-       border-radius: 20px;
-       background: #0F8BFD;
-       cursor: pointer;
-       font-size: 1rem;
+        padding: 10px 60px;
+        border-radius: 20px;
+        background: #0F8BFD;
+        cursor: pointer;
+        font-size: 1rem;
     }
 }
 
 .question-box {
     width: 100%;
     margin: 50px 0;
-    &__subtitle{
+
+    &__subtitle {
         text-align: center;
         font-size: 0.9rem;
         text-transform: uppercase;
@@ -39,6 +44,7 @@
         font-weight: 600;
         margin-bottom: 1rem;
     }
+
     &__question {
         font-size: 1.6rem;
         line-height: 130%;
@@ -60,17 +66,19 @@
         display: flex;
         align-items: center;
         color: #172035;
-            margin-left: 20px;
-            font-size: 1.2rem;
-            text-transform: capitalize;
+        margin-left: 20px;
+        font-size: 1.2rem;
+        text-transform: capitalize;
+
         &:hover {
             background-color: #374A7C;
             color: white;
         }
     }
+
     &__answer-index {
         border: none;
-        background: rgba(255,255,255,0.4);
+        background: rgba(255, 255, 255, 0.4);
         padding: 8px 10px;
         margin-right: 10px;
         text-align: center;
@@ -80,24 +88,27 @@
         border-radius: 50%;
         cursor: pointer;
     }
-    &__answer{
+
+    &__answer {
         font-weight: 300;
         font-size: 1rem;
     }
 }
 
-.score-board{
+.score-board {
     height: calc(100vh - 232px);
     width: 100%;
-    .subtitle{
+
+    .subtitle {
         text-align: center;
         font-size: 1.2rem;
         text-transform: uppercase;
         color: #FFB904;
         font-weight: 600;
-        margin-bottom: 5%; 
+        margin-bottom: 5%;
     }
-    .score{
+
+    .score {
         margin-bottom: 20px;
         font-size: 40px;
         line-height: 90px;
@@ -106,54 +117,61 @@
         color: #2a224b;
         text-align: center;
     }
-    .btn-container{
+
+    .btn-container {
         display: flex;
         justify-content: center;
     }
-    .playBtn{
+
+    .playBtn {
         text-align: center;
         border: none;
         color: white;
-       padding: 10px 60px;
-       border-radius: 20px;
-       background: #0F8BFD;
-       cursor: pointer;
-       font-size: 1rem;
-       margin: 0 auto;
+        padding: 10px 60px;
+        border-radius: 20px;
+        background: #0F8BFD;
+        cursor: pointer;
+        font-size: 1rem;
+        margin: 0 auto;
     }
 }
 
-.choose-quiz{
+.choose-quiz {
     background: #0F8BFD;
     padding: 30px 100px;
     margin: 20px;
     cursor: pointer;
     opacity: 0.5;
     transition: .3s ease-in-out;
-    &:hover{
+
+    &:hover {
         opacity: 1;
-        a{
+
+        a {
             scale: (1.2);
             transition: .3s ease-in-out;
         }
     }
-    &__quiz{
-        h1{
+
+    &__quiz {
+        h1 {
             text-align: left;
             color: white;
             font-weight: 700;
             font-size: 2.3rem;
         }
-       
+
     }
-    &__info{
+
+    &__info {
         display: flex;
         text-align: left;
         padding: 20px 0;
         align-items: center;
         justify-content: space-between;
         flex-wrap: wrap;
-        p{
+
+        p {
             display: inline-block;
             color: #FFB904;
             text-transform: capitalize;
@@ -162,13 +180,14 @@
             padding: 10px;
             line-height: 160%;
         }
-        a{
+
+        a {
             color: #F2F2F2;
             padding: 10px 20px;
-            background: rgba(255,255,255,0.4);
+            background: rgba(255, 255, 255, 0.4);
             font-weight: 600;
             text-transform: uppercase;
-            transition: .3s ease-in-out;   
+            transition: .3s ease-in-out;
             font-size: 1rem;
             text-align: center;
         }

@@ -10,14 +10,14 @@ export default class Quiz extends Component {
       score: 0,
       responses: 0,
       submitted: false,
-      quizInfo: []
+      quizInfo: [],
     };
   }
 
   getQuestions = () => {
     questionAPI().then((question) => {
-      this.setState({ quizInfo: question.slice(0,1) })
-      this.setState({ questionList: question.slice(1,question.length) });
+      this.setState({ quizInfo: question.slice(0, 1) });
+      this.setState({ questionList: question.slice(1, question.length) });
     });
   };
 
@@ -28,13 +28,13 @@ export default class Quiz extends Component {
       this.state.questionList.length > 0 &&
       this.state.submitted === false &&
       this.state.questionList.map(
-        ({ question, answers, correct, questionId}) => (
+        ({ question, answers, correct, questionId }) => (
           <QuestionBox
             question={question}
             options={answers}
             key={questionId}
             selected={(answer) => this.computeAnswer(answer, correct)}
-            index={(++length - 10)}
+            index={++length - 10}
             number={numberofQuestions}
           />
         )
@@ -50,14 +50,14 @@ export default class Quiz extends Component {
   // Set state back to default and call function
   playAgain = () => {
     this.getQuestions();
-    this.setState({ score: 0, responses: 0 , submitted: false});
+    this.setState({ score: 0, responses: 0, submitted: false });
   };
 
   handleSubmit = () => {
     this.setState({
-      submitted: true
-    })
-  }
+      submitted: true,
+    });
+  };
   // Function to compute scores
   computeAnswer = (answer, correctAns) => {
     if (answer === correctAns) {
@@ -80,10 +80,15 @@ export default class Quiz extends Component {
       <div className="quiz">
         <div className="container">
           <div className="quiz__title"></div>
-          <div className="quiz__questions-all">{this.showAllQuestions()}
-          <button style={{ display: this.state.submitted ? "none" : "block"  }} className="quiz__questions-submit" onClick={this.handleSubmit}>
-            Submit
-          </button>
+          <div className="quiz__questions-all">
+            {this.showAllQuestions()}
+            <button
+              style={{ display: this.state.submitted ? "none" : "block" }}
+              className="quiz__questions-submit"
+              onClick={this.handleSubmit}
+            >
+              Submit
+            </button>
           </div>
         </div>
         <div className="quiz__questions-all">{this.showResult()}</div>

@@ -1,9 +1,9 @@
 const qBank2 = [
   {
-    quizName: 'NBA',
+    quizName: "NBA",
     length: 10,
-    difficulty: 'Hard'
-},
+    difficulty: "Hard",
+  },
   {
     question:
       "This shooting guard for the Miami Heat also played for Marquette in 2000 until 2003. His number was retired when he left college. He was a member of the Heat during all three of their NBA championships. He was named the Finals MVP in 2006. You've got to know who number 3 is on the Miami Heat - who is he?",
@@ -107,5 +107,4 @@ const qBank2 = [
 ];
 
 // n = 5 to export 5 question
-export default (n = 10) =>
-  Promise.resolve(qBank2);
+export default (n = 10) => Promise.resolve(qBank2);

@@ -35,6 +35,7 @@
             line-height: 31px;
             font-style: normal;
             font-weight: 300;
+
             br {
                 display: none;
             }
@@ -44,22 +45,23 @@
 
     &__single-review {
         background: white;
-      padding: 80px 30px;
-       display: flex;
-       align-items: flex-start;
+        padding: 80px 30px;
+        display: flex;
+        align-items: flex-start;
+
         &:nth-child(1) {}
 
         &:nth-child(2) {
             display: none;
         }
-        &:hover {
-            
-        }
+
+        &:hover {}
     }
 
     &__img {
         margin-top: -20px;
         margin-right: 20px;
+
         img {
             width: 80px;
             height: 80px;
@@ -71,6 +73,7 @@
     &__review {
         display: flex;
         flex-direction: column;
+
         p {
             text-align: left;
             margin-bottom: 25px;
@@ -79,7 +82,7 @@
             font-style: normal;
             font-weight: 300;
             max-width: 500px;
-           
+
         }
     }
 
@@ -88,7 +91,6 @@
             font-weight: 500;
             color: #374A7C;
             font-size: 20px;
-            // line-height: 30px;
             text-align: left;
         }
     }
@@ -100,17 +102,15 @@
 
 
 // Extra small devices (phones, 600px and down)
-@media only screen and (max-width: 576px) {
-   
-}
+@media only screen and (max-width: 576px) {}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 577px) {}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
-    .reviews{
-        &__all{
+    .reviews {
+        &__all {
             flex-wrap: wrap;
         }
     }

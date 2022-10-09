@@ -1,33 +1,12 @@
 import React from "react";
-import PropTypes from "prop-types";
-import Link from 'next/link';
+import Link from "next/link";
 
-// #region constants
-
-// #endregion
-
-// #region styled-components
-
-// #endregion
-
-// #region functions
-
-// #endregion
-
-// #region component
-const propTypes = {};
-
-const defaultProps = {};
-
-/**
- *
- */
 const Header = () => {
   return (
     <div className="header">
       <div className="container">
         <div className="header__logo">
-          <Link href="/" >Anki</Link>
+          <Link href="/">Anki</Link>
         </div>
         <div className="header__menu">
           <ul className="header__anchor-nav">
@@ -59,9 +38,5 @@ const Header = () => {
     </div>
   );
 };
-
-// Header.propTypes = propTypes;
-// Header.defaultProps = defaultProps;
-// #endregion
 
 export default Header;

@@ -5,9 +5,7 @@ const Video = () => {
     <div className="video">
       <div className="container">
         <div className="video__title">
-          <h2>
-            Watch what Anki can do for you
-          </h2>
+          <h2>Watch what Anki can do for you</h2>
         </div>
         <div className="video__vid-box">
           <div className="video__video">

@@ -4,7 +4,6 @@ export default class Reviews extends Component {
   constructor() {
     super();
     this.state = {
-      name: "Joe",
       reviews: [
         {
           userName: "Michelle",
@@ -16,7 +15,7 @@ export default class Reviews extends Component {
         {
           userName: "Joe Santos",
           imgUrl: "https://randomuser.me/api/portraits/men/64.jpg",
-          review: `Perfect for farm survielence. The video and camera footage is phenomenal!`,
+          review: `Must Buy! I learn much faster and easier now.`,
           date: "July 18, 2020",
         },
         {
@@ -30,26 +29,21 @@ export default class Reviews extends Component {
     };
   }
   showAllReviews = () => {
-    const Reviews = this.state.reviews; // sets the variable dronePrices to the array of prices
-    var i; //declare the variable i that will be used to iterate through the dronePrices
+    const Reviews = this.state.reviews;
+    var i;
     for (i = 0; i < Reviews.length; i++) {
-      // for loop to iterate through all objects in the dronePrices variable
       return Reviews.map((review, index) => {
         return (
-          <li
-            className={`reviews__single-review ${"a" + index}`}
-            key={index}
-          >
+          <li className={`reviews__single-review ${"a" + index}`} key={index}>
             <div className="reviews__img">
               <img src={review.imgUrl} alt="" />
             </div>
             <div className="reviews__review">
               <p>{review.review}</p>
               <div className="reviews__user">
-              <h5>... {review.userName}</h5>
+                <h5>... {review.userName}</h5>
+              </div>
             </div>
-            </div>
-           
           </li>
         );
       });
@@ -60,9 +54,7 @@ export default class Reviews extends Component {
     return (
       <div className="reviews">
         <div className="reviews__title">
-          <h2>
-            Testimonials
-          </h2>
+          <h2>Testimonials</h2>
           <p>Have a look at some of our reviews</p>
         </div>
         <div className="reviews__container">

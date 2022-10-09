@@ -1,21 +1,22 @@
-.stats{
-    background: linear-gradient(68.49deg,#18b761 24.75%,#08b0b0 85.95%),linear-gradient(180deg,#68c676 0,#5ac39d 100%),linear-gradient(303.91deg,#6b4ce6 8.92%,#5566fd 100%);
+.stats {
+    background: linear-gradient(68.49deg, #18b761 24.75%, #08b0b0 85.95%), linear-gradient(180deg, #68c676 0, #5ac39d 100%), linear-gradient(303.91deg, #6b4ce6 8.92%, #5566fd 100%);
     padding: 75px 50px 150px;
-    // display: flex;
-    // justify-content: center;
-    &__title-box{
+
+    &__title-box {
         margin-bottom: 75px;
         text-align: center;
-        p{
+
+        p {
             margin-bottom: 45px;
-        font-size: 18px;
-        line-height: 31px;
-        font-style: normal;
-        font-weight: 300;
-        color: white;
+            font-size: 18px;
+            line-height: 31px;
+            font-style: normal;
+            font-weight: 300;
+            color: white;
         }
     }
-    &__subtitle{
+
+    &__subtitle {
         margin-top: 100px;
         margin-bottom: 60px;
         font-size: 15px;
@@ -25,7 +26,8 @@
         font-weight: 900;
         letter-spacing: 10px;
     }
-    &__title{
+
+    &__title {
         margin-bottom: 35px;
         font-size: 40px;
         line-height: 50px;
@@ -33,37 +35,40 @@
         font-weight: 300;
         color: white;
     }
-    &__all{
+
+    &__all {
         width: 100%;
         display: flex;
         justify-content: space-evenly;
     }
-    &__stat{
+
+    &__stat {
         text-align: center;
     }
-    &__stat-number{
+
+    &__stat-number {
         font-size: 3rem;
         margin-bottom: 1rem;
         color: #FFB904;
         font-weight: 600;
     }
-    &__stat-title{
+
+    &__stat-title {
         color: white;
         font-weight: 500;
     }
 }
+
 // Extra small devices (phones, 600px and down)
-@media only screen and (max-width: 576px) {
-   
-}
+@media only screen and (max-width: 576px) {}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 577px) {}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
-    .stats{
-        &__all{
+    .stats {
+        &__all {
             flex-wrap: wrap;
             flex-direction: column;
             gap: 2rem;

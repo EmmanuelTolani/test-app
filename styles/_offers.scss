@@ -1,12 +1,12 @@
-.offers{
+.offers {
     padding: 75px 50px 150px;
-    // display: flex;
-    // justify-content: center;
-    &__title-box{
+
+    &__title-box {
         margin-bottom: 75px;
         text-align: center;
     }
-    &__title{
+
+    &__title {
         margin-bottom: 30px;
         font-size: 40px;
         line-height: 90px;
@@ -14,53 +14,56 @@
         font-weight: 300;
         color: #2a224b;
     }
-    &__all{
+
+    &__all {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        // flex-wrap: wrap;
         gap: 2rem;
     }
-    &__offer{
+
+    &__offer {
         text-align: center;
         padding: 20px 10px
     }
-    &__offer-info{
-    
-    }
-    &__offer-logo{
-        .fa-regular, .fa-solid{
+
+    &__offer-info {}
+
+    &__offer-logo {
+
+        .fa-regular,
+        .fa-solid {
             font-size: 3.2rem;
             margin-bottom: 50px;
             color: #2D73DE;
         }
     }
-    &__offer-title{
+
+    &__offer-title {
         color: #374A7C;
         font-size: 1.5rem;
         margin-bottom: 20px;
     }
-    &__offer-p{
+
+    &__offer-p {
         margin-bottom: 45px;
-            font-size: 18px;
-            line-height: 31px;
-            font-style: normal;
-            font-weight: 300;
+        font-size: 18px;
+        line-height: 31px;
+        font-style: normal;
+        font-weight: 300;
     }
 }
 
 // Extra small devices (phones, 600px and down)
-@media only screen and (max-width: 576px) {
-   
-}
+@media only screen and (max-width: 576px) {}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 577px) {}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
-    .offers{
-        &__all{
+    .offers {
+        &__all {
             flex-wrap: wrap;
         }
     }

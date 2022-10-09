@@ -1,6 +1,5 @@
 .video {
     padding: 75px 150px 150px;
-    // height: auto;
 
 
     &__title {
@@ -13,12 +12,12 @@
 
         h2 {
             margin-bottom: 20px;
-        font-size: 40px;
-        line-height: 90px;
-        font-style: normal;
-        font-weight: 300;
-        color: #2a224b;
-        text-align: center;
+            font-size: 40px;
+            line-height: 90px;
+            font-style: normal;
+            font-weight: 300;
+            color: #2a224b;
+            text-align: center;
         }
     }
 
@@ -50,17 +49,14 @@
 }
 
 // Extra small devices (phones, 600px and down)
-@media only screen and (max-width: 576px) {
-
-
-}
+@media only screen and (max-width: 576px) {}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 577px) {}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
-    .video{
+    .video {
         padding: 75px 20px 150px;
     }
 }

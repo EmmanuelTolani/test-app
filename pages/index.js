@@ -6,7 +6,6 @@ import Hero from '../src/components/Hero'
 import MobileMenu from '../src/components/UI/MobileMenu'
 import Offer from '../src/components/Offer'
 import Pricing from '../src/components/Pricing'
-
 import Reviews from '../src/components/Reviews'
 import Stats from '../src/components/Stats'
 import Video from '../src/components/Video'

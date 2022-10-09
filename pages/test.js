@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Footer from '../src/components/UI/Footer'
 import Header from '../src/components/UI/Header'
-import MobileMenu from '../src/components/MobileMenu'
+import MobileMenu from '../src/components/UI/MobileMenu'
 import MainLayout from '../src/layouts/MainLayout'
 import ChooseQuiz from '../src/components/Quiz/ChooseQuiz'
 

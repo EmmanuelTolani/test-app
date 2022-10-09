@@ -10,7 +10,7 @@ export default class Reviews extends Component {
           userName: "Michelle",
           imgUrl:
             "https://images.unsplash.com/photo-1502378735452-bc7d86632805?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&s=aa3a807e1bbdfd4364d1f449eaa96d82",
-          review: `I love my drone! It gave me unlimited potential in my videography career!`,
+          review: `I was a stuggling student on academic probation. Last Semester, Anki helped me achieve Dean's list.`,
           date: "July 28, 2021",
         },
         {
@@ -23,7 +23,7 @@ export default class Reviews extends Component {
           userName: "Emmanuel Paul",
           imgUrl:
             "https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-          review: `Must Buy! I have bought several different drones, and this is the best one!`,
+          review: `Must Buy! I learn much faster and easier now.`,
           date: "March 15, 2019",
         },
       ],
@@ -61,7 +61,7 @@ export default class Reviews extends Component {
       <div className="reviews">
         <div className="reviews__title">
           <h2>
-            Our students are our biggest fans
+            Testimonials
           </h2>
           <p>Have a look at some of our reviews</p>
         </div>

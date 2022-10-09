@@ -32,7 +32,7 @@ const ChooseQuiz = ({name, link, difficulty, length}) => {
                     <div className='choose-quiz__info'>
                     <p>{difficulty}</p>
                     <p>{length} Questions</p>
-                        <a href={link}>Start Now</a>
+                        <a href={link}>Start Quiz</a>
                     </div>
                 </div>
             </div>

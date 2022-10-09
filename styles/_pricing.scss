@@ -1,48 +1,102 @@
-.pricings{
+.pricings {
     padding: 75px 50px 150px;
     display: flex;
     justify-content: center;
-    &__title-box{
+
+    &__title-box {
         margin-bottom: 75px;
         text-align: center;
     }
-    &__title{
-        font-size: 1.6rem;
-        font-weight: 600;
-        color: #374A7C;
+
+    &__title {
         margin-bottom: 20px;
+        font-size: 40px;
+        line-height: 90px;
+        font-style: normal;
+        font-weight: 300;
+        color: #2a224b;
     }
-    &__all{
+    &__p{
+        margin-bottom: 45px;
+        font-size: 18px;
+        line-height: 31px;
+        font-style: normal;
+        font-weight: 300;
+    }
+
+    &__all {
         display: flex;
         justify-content: space-evenly;
         gap: 2rem;
     }
-    &__pricing{
+
+    &__pricing {
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-evenly;
+        align-items: center;
         text-align: center;
         height: 500px;
-        padding: 100px 20px;
+        padding: 10px 20px;
         background: #F0F3F8;
     }
-    &__pricing-info{
-    }
-    &__pricing-logo{
-        .fa-regular, .fa-solid{
+
+    &__pricing-info {}
+
+    &__pricing-logo {
+
+        .fa-regular,
+        .fa-solid {
             font-size: 4rem;
             margin-bottom: 50px;
             color: #2D73DE;
         }
     }
-    &__pricing-title{
-        color: #374A7C;
-        font-size: 1.5rem;
+
+    &__pricing-title {
         margin-bottom: 20px;
+        font-size: 25px;
+        line-height: 90px;
+        font-style: normal;
+        font-weight: 300;
+        color: #2a224b;
+        
     }
-    &__pricing-p{
-        font-size: 0.9rem;
-        line-height: 150%;
+    &__pricing-price{
+        margin-bottom: 1rem;
+        color: #FFB904;
+        font-size: 3rem;
+        text-align: center;
+        font-weight: 600;
+    }
+    &__pricing-p {
+        margin-bottom: 45px;
+        font-size: 18px;
+        line-height: 31px;
+        font-style: normal;
+        font-weight: 300;
         color: #84858c;
     }
 }
+
+// Extra small devices (phones, 600px and down)
+@media only screen and (max-width: 576px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 577px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .pricings {
+        &__all {
+            flex-wrap: wrap;
+        }
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

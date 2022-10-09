@@ -36,19 +36,19 @@ const Header = () => {
               </a>
             </li>
             <li>
-              <a href="#" alt="courses">
+              <a href="/" alt="courses">
                 Courses
               </a>
             </li>
           </ul>
           <ul className="header__profile-nav">
             <li>
-              <a href="#home" alt="login">
+              <a href="/" alt="login">
                 Login
               </a>
             </li>
             <li>
-              <a href="#" alt="sign up">
+              <a href="/" alt="sign up">
                 Sign Up
               </a>
             </li>

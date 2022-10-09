@@ -7,15 +7,18 @@
         text-align: center;
     }
     &__title{
-        font-size: 2rem;
-        font-weight: 700;
-        color: #374A7C;
-        text-align: center;
-        margin-bottom: 2rem;
+        margin-bottom: 30px;
+        font-size: 40px;
+        line-height: 90px;
+        font-style: normal;
+        font-weight: 300;
+        color: #2a224b;
     }
     &__all{
         display: flex;
+        flex-direction: row;
         justify-content: space-evenly;
+        // flex-wrap: wrap;
         gap: 2rem;
     }
     &__offer{
@@ -27,7 +30,7 @@
     }
     &__offer-logo{
         .fa-regular, .fa-solid{
-            font-size: 4rem;
+            font-size: 3.2rem;
             margin-bottom: 50px;
             color: #2D73DE;
         }
@@ -38,8 +41,34 @@
         margin-bottom: 20px;
     }
     &__offer-p{
-        font-size: 0.9rem;
-        line-height: 150%;
-        color: #84858c;
+        margin-bottom: 45px;
+            font-size: 18px;
+            line-height: 31px;
+            font-style: normal;
+            font-weight: 300;
     }
 }
+
+// Extra small devices (phones, 600px and down)
+@media only screen and (max-width: 576px) {
+   
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 577px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .offers{
+        &__all{
+            flex-wrap: wrap;
+        }
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

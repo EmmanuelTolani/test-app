@@ -1,9 +1,5 @@
 .stats{
-    background: rgb(26,103,221);
-background: -moz-linear-gradient(90deg, rgba(26,103,221,1) 0%, rgba(16,78,179,1) 100%);
-background: -webkit-linear-gradient(90deg, rgba(26,103,221,1) 0%, rgba(16,78,179,1) 100%);
-background: linear-gradient(90deg, rgba(26,103,221,1) 0%, rgba(16,78,179,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1a67dd",endColorstr="#104eb3",GradientType=1);
+    background: linear-gradient(68.49deg,#18b761 24.75%,#08b0b0 85.95%),linear-gradient(180deg,#68c676 0,#5ac39d 100%),linear-gradient(303.91deg,#6b4ce6 8.92%,#5566fd 100%);
     padding: 75px 50px 150px;
     // display: flex;
     // justify-content: center;
@@ -11,21 +7,31 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1a67dd",endCo
         margin-bottom: 75px;
         text-align: center;
         p{
-            color: white;
+            margin-bottom: 45px;
+        font-size: 18px;
+        line-height: 31px;
+        font-style: normal;
+        font-weight: 300;
+        color: white;
         }
     }
     &__subtitle{
-        font-size: 1.2rem;
-        font-weight: 400;
+        margin-top: 100px;
+        margin-bottom: 60px;
+        font-size: 15px;
         color: white;
-        text-align: center;
+        line-height: 19px;
+        font-style: normal;
+        font-weight: 900;
+        letter-spacing: 10px;
     }
     &__title{
-        font-size: 2rem;
-        font-weight: 700;
+        margin-bottom: 35px;
+        font-size: 40px;
+        line-height: 50px;
+        font-style: normal;
+        font-weight: 300;
         color: white;
-        text-align: center;
-        margin: 2rem 0;
     }
     &__all{
         width: 100%;
@@ -36,12 +42,38 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1a67dd",endCo
         text-align: center;
     }
     &__stat-number{
-        font-size: 2rem;
+        font-size: 3rem;
         margin-bottom: 1rem;
-        color: white;
+        color: #FFB904;
+        font-weight: 600;
     }
     &__stat-title{
         color: white;
-        font-weight: 700;
+        font-weight: 500;
     }
 }
+// Extra small devices (phones, 600px and down)
+@media only screen and (max-width: 576px) {
+   
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 577px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .stats{
+        &__all{
+            flex-wrap: wrap;
+            flex-direction: column;
+            gap: 2rem;
+        }
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

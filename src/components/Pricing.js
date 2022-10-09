@@ -32,7 +32,6 @@ const Pricing = () => {
         </div>
         <div className="pricings__all">
           <div className="pricings__pricing">
-            <div className="pricings__pricing-info">
               <h3 className="pricings__pricing-title">Basic Plan</h3>
               <h4 className="pricings__pricing-price">
                 Free
@@ -41,41 +40,27 @@ const Pricing = () => {
                 Register for the exam you want to appear. You can register in single click for the exam of your choice from dashboard.
               </p>
             </div>
-            <a className="pricings__pricing-button" href="#">
-              Buy Now
-            </a>
-          </div>
           <div className="pricings__pricing">
-            <div className="pricings__pricing-info">
               <h3 className="pricings__pricing-title">Premium Plan</h3>
               <h4 className="pricings__pricing-price">
-                $15 monthly
+                $15/mo
               </h4>
               <p className="pricings__pricing-p">
                 Register for the exam you want to appear. You can register in single click for the exam of your choice from dashboard.
               </p>
-            </div>
-            <a className="pricings__pricing-button" href="#">
-              Buy Now
-            </a>
           </div>
           <div className="pricings__pricing">
-            <div className="pricings__pricing-info">
-              <h3 className="pricings__pricing-title">Organization Plan</h3>
+              <h3 className="pricings__pricing-title">Group Plan</h3>
               <h4 className="pricings__pricing-price">
-                $60 monthly
+                $60/mo
               </h4>
               <p className="pricings__pricing-p">
                 Register for the exam you want to appear. You can register in single click for the exam of your choice from dashboard.
               </p>
-            </div>
-            <a className="pricings__pricing-button" href="#">
-              Buy Now
-            </a>
+          </div>
           </div>
         </div>
-      </div>
-    </div>
+        </div>
   );
 };
 

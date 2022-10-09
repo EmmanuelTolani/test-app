@@ -1,4 +1,4 @@
-This is a React.js & Next.js project integrated with SASS. It provides a pixel-perfect responsive design and allow users to take quizzes and show's their results at the end.
+This is a React.js & Next.js project integrated with SASS. It provides a pixel-perfect responsive design and allow users to take quizzes and show's their results at the end. Please enjoy the quiz!
 
 Data for all the quizzes: [Quizzes](../../tree/main/src/components/question)
 ## How I worked on this project

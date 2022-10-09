@@ -11,9 +11,9 @@ Data for all the quizzes: [Quizzes](../../tree/main/src/components/question)
 
 # Demo 
 ## Landing Page
-![](ankii1.gif)
+![](ankii-1.gif)
 ## Quiz
-![](ankii2.gif)
+![](ankii-2.gif)
 
 
 

@@ -10,27 +10,10 @@ Data for all the quizzes: [Quizzes](../../tree/main/src/components/question)
 * yarn dev or npm run dev starts the server You should be able to access the app through http://localhost:3000
 
 # Demo 
-## Create User
-![Create User](create.gif)
-## Login User
-![](login.gif)
-## Search Movies
-![](search_Trim.gif)
-* Search for any movie or show and it's displayed dynamically.
-## Show Cast
-![](castcrew.gif)
-* A list of all cast and directors for each movie are displayed dynamically.
-## Watch List
-![](watchlist.gif)
-* Add movies into your watch list, or remove them from your watch list.
-## Movie List
-![](movies-Trim.gif)
-* All movies for any genre.
-## Show List
-![](shows-Trim.gif)
-* All shows for any genre.
-## Sign Out
-![](signout.gif)
+## Landing Page
+![](ankii1.gif)
+## Quiz
+![](ankii2.gif)
 
 
 

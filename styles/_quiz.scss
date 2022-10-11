@@ -41,17 +41,18 @@
         font-size: 0.9rem;
         text-transform: uppercase;
         color: #FFB904;
-        font-weight: 600;
+        font-weight: 700;
         margin-bottom: 1rem;
     }
 
     &__question {
-        font-size: 1.6rem;
-        line-height: 130%;
-        font-weight: 700;
+        font-size: 1.4rem;
+        line-height: 160%;
+        font-weight: 500;
         margin-bottom: 2rem;
         color: #172035;
         text-align: center;
+        letter-spacing: 2px;
     }
 
     &__answers {
@@ -203,6 +204,14 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
+    .question-box{
+        &__question{
+            font-size: 1.2rem;
+            text-align: center;
+            font-weight: 500;
+            letter-spacing: 2px;
+        }
+    }
     .choose-quiz {
         &__quiz {
         h1{

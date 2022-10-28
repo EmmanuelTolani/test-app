@@ -1,5 +1,5 @@
 .hero {
-    background: linear-gradient(348.03deg, #6b4ce6 8.92%, #5566fd 100%) no-repeat 50% 50%;
+    background: #3056D3;
     background-size: auto;
     background-size: cover;
     color: #fff;
@@ -75,4 +75,7 @@
         object-fit: cover;
         object-position: top;
     }
+}
+.hero-header{
+   background: #3056D3;
 }

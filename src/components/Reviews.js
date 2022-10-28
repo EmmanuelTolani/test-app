@@ -53,9 +53,10 @@ export default class Reviews extends Component {
   render() {
     return (
       <div className="reviews">
-        <div className="reviews__title">
-          <h2>Testimonials</h2>
-          <p>Have a look at some of our reviews</p>
+        <div className="reviews__title-box">
+        <span className="reviews__subtitle">Testimonials</span>
+          <h2 className="reviews__title">What our Clients Say</h2>
+          <p>There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.</p>
         </div>
         <div className="reviews__container">
           <ul className="reviews__all">{this.showAllReviews()}</ul>

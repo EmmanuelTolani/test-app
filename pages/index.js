@@ -10,13 +10,13 @@ import Reviews from '../src/components/Reviews'
 import Stats from '../src/components/Stats'
 import Video from '../src/components/Video'
 import MainLayout from '../src/layouts/MainLayout'
+import HeroHeader from '../src/components/HeroHeader'
 
 export default function Home() {
   return (
     <MainLayout>
-      <Header />
       <MobileMenu />
-      <Hero />
+     <HeroHeader/>
       <Offer />
       <Reviews />
       <Video />

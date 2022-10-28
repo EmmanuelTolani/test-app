@@ -1,15 +1,38 @@
-import React from "react";
+import React, {useState, useLayoutEffect} from "react";
 import Link from "next/link";
 
+
 const Header = () => {
+   const[scrolled, setScrolled] = useState(false)
+
+   useLayoutEffect(()=>{
+    const handleScroll = e =>{
+      setScrolled(window.scrollY > 50)
+    }
+    window.addEventListener("scroll", handleScroll)
+
+    return () =>{
+      window.removeEventListener("scroll", handleScroll)
+    }
+   }, [])
   return (
-    <div className="header">
+    <div className={scrolled ? "header sticky" : "header"}>
       <div className="container">
         <div className="header__logo">
           <Link href="/">Anki</Link>
         </div>
         <div className="header__menu">
           <ul className="header__anchor-nav">
+          <li>
+              <Link href="/" alt="Home">
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link href="/" alt="about">
+                About
+              </Link>
+            </li>
             <li>
               <Link href="/test" alt="test">
                 Test

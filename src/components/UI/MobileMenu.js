@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, {useState, useLayoutEffect} from "react";
 import Link from "next/link";
 
 const MobileMenu = () => {
@@ -9,8 +9,20 @@ const MobileMenu = () => {
     fontWeight: "900",
     letterSpacing: "3px",
   };
+  const[scrolled, setScrolled] = useState(false)
+
+   useLayoutEffect(()=>{
+    const handleScroll = e =>{
+      setScrolled(window.scrollY > 50)
+    }
+    window.addEventListener("scroll", handleScroll)
+
+    return () =>{
+      window.removeEventListener("scroll", handleScroll)
+    }
+   }, [])
   return (
-    <div className="mobile-menu">
+    <div className={scrolled ? "mobile-menu sticky" : "mobile-menu"}>
       <div className="mobile-menu__container">
         <div className="mobile-menu__in">
           <div className="mobile-menu__logo">

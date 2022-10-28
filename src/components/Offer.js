@@ -5,7 +5,9 @@ const Offer = () => {
     <div className="offers">
       <div className="container">
         <div className="offers__title-box">
-          <h2 className="offers__title">What we offer</h2>
+          <span className="offers__subtitle">Features</span>
+          <h2 className="offers__title">Main Features Of Anki</h2>
+          <p>There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.</p>
         </div>
         <div className="offers__all">
           <div className="offers__offer">

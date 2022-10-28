@@ -15,32 +15,42 @@
         gap: 2rem;
     }
 
-    &__title {
+    &__title-box {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
 
-        h2 {
-            font-size: 40px;
-            line-height: 90px;
-            font-style: normal;
+        p{
+            color: #637381;
+            font-size: 20px;
+            line-height: 1.9rem;
             font-weight: 300;
-            color: #2a224b;
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            max-width: 600px;
+            text-align: center;
         }
+    }
 
-        p {
-            margin-bottom: 45px;
-            font-size: 18px;
-            line-height: 31px;
-            font-style: normal;
-            font-weight: 300;
-
-            br {
-                display: none;
-            }
-
-        }
+    &__title {
+        // margin-bottom: 30px;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 600;
+        color: #2a224b;
+        text-align: center;
+    }
+    &__subtitle{
+        margin-bottom: 20px;
+        font-size: 18px;
+        line-height: 40px;
+        font-style: normal;
+        font-weight: 600;
+        color: #2D73DE;
     }
 
     &__single-review {

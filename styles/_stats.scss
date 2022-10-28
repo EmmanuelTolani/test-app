@@ -1,39 +1,44 @@
 .stats {
-    background: linear-gradient(68.49deg, #18b761 24.75%, #08b0b0 85.95%), linear-gradient(180deg, #68c676 0, #5ac39d 100%), linear-gradient(303.91deg, #6b4ce6 8.92%, #5566fd 100%);
+    background: #F6F7FB;
     padding: 75px 50px 150px;
 
     &__title-box {
-        margin-bottom: 75px;
-        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
-        p {
-            margin-bottom: 45px;
-            font-size: 18px;
-            line-height: 31px;
-            font-style: normal;
+        p{
+            color: #637381;
+            font-size: 20px;
+            line-height: 1.9rem;
             font-weight: 300;
-            color: white;
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            max-width: 600px;
+            text-align: center;
+            margin-bottom: 30px;
         }
     }
 
-    &__subtitle {
-        margin-top: 100px;
-        margin-bottom: 60px;
-        font-size: 15px;
-        color: white;
-        line-height: 19px;
-        font-style: normal;
-        font-weight: 900;
-        letter-spacing: 10px;
-    }
-
     &__title {
-        margin-bottom: 35px;
+        // margin-bottom: 30px;
         font-size: 40px;
-        line-height: 50px;
         font-style: normal;
-        font-weight: 300;
-        color: white;
+        font-weight: 600;
+        color: #2a224b;
+        text-align: left;
+    }
+    &__subtitle{
+        margin-bottom: 20px;
+        font-size: 18px;
+        line-height: 40px;
+        font-style: normal;
+        font-weight: 600;
+        color: #2D73DE;
     }
 
     &__all {
@@ -49,12 +54,12 @@
     &__stat-number {
         font-size: 3rem;
         margin-bottom: 1rem;
-        color: #FFB904;
+        color: #2D73DE;
         font-weight: 600;
     }
 
     &__stat-title {
-        color: white;
+        color: #2a224b;
         font-weight: 500;
     }
 }

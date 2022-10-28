@@ -3,16 +3,30 @@
 
     &__title-box {
         margin-bottom: 75px;
-        text-align: center;
+        p{
+            color: #637381;
+            font-size: 20px;
+            line-height: 1.9rem;
+            font-weight: 300;
+        }
     }
 
     &__title {
-        margin-bottom: 30px;
+        margin-bottom: 10px;
         font-size: 40px;
-        line-height: 90px;
         font-style: normal;
-        font-weight: 300;
+        font-weight: 600;
         color: #2a224b;
+        text-align: left;
+    }
+    &__subtitle{
+        margin-bottom: 20px;
+        font-size: 18px;
+        line-height: 40px;
+        font-style: normal;
+        font-weight: 600;
+        color: #2D73DE;
+        text-align: left;
     }
 
     &__all {
@@ -40,7 +54,8 @@
     }
 
     &__offer-title {
-        color: #374A7C;
+        color: #2a224b;
+        font-weight: 600;
         font-size: 1.5rem;
         margin-bottom: 20px;
     }

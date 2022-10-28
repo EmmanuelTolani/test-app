@@ -14,7 +14,7 @@ export default function Test() {
   return (
     <MainLayout>
       <MobileMenu sticky={false} />
-      <Header sticky={false}/>
+      <Header sticky={false} />
       <Quiz2 />
       <Footer />
     </MainLayout>

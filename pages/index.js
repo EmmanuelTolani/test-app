@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <MainLayout>
       <MobileMenu sticky={true} />
-     <HeroHeader sticky={true}/>
+     <HeroHeader sticky={true} />
       <Offer />
       <Reviews />
       <Video />

@@ -15,8 +15,8 @@ import HeroHeader from '../src/components/HeroHeader'
 export default function Home() {
   return (
     <MainLayout>
-      <MobileMenu />
-     <HeroHeader/>
+      <MobileMenu sticky={true} />
+     <HeroHeader sticky={true}/>
       <Offer />
       <Reviews />
       <Video />

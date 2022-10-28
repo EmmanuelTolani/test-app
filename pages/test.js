@@ -9,8 +9,8 @@ import ChooseQuiz from "../src/components/Quiz/ChooseQuiz";
 export default function Test() {
   return (
     <MainLayout>
-      <MobileMenu />
-      <Header />
+      <MobileMenu sticky={true} />
+      <Header sticky={true} />
       <div className="all-quizes">
         <ChooseQuiz
           name="General Knowledge"

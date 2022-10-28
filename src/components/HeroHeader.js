@@ -6,7 +6,7 @@ import MobileMenu from "./UI/MobileMenu";
 const HeroHeader = () => {
   return (
     <div className="hero-header">
-    <HeaderAlt />
+    <HeaderAlt sticky={true} />
     <div className="hero">
       <div className="hero__image">
         <div className="hero__info">

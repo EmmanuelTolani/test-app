@@ -2,7 +2,7 @@ import React, {useState, useLayoutEffect} from "react";
 import Link from "next/link";
 
 
-const HeaderAlt = () => {
+const HeaderAlt = ({ sticky }) => {
    const[scrolled, setScrolled] = useState(false)
 
    useLayoutEffect(()=>{
@@ -16,7 +16,7 @@ const HeaderAlt = () => {
     }
    }, [])
   return (
-    <div className={scrolled ? "header-alt sticky" : "header-alt"}>
+    <div className={sticky && scrolled ? "header-alt sticky" : "header-alt"}>
       <div className="container">
         <div className="header-alt__logo">
           <Link href="/">Anki</Link>

@@ -1,7 +1,7 @@
 import React, {useState, useLayoutEffect} from "react";
 import Link from "next/link";
 
-const MobileMenu = () => {
+const MobileMenu = ({ sticky }) => {
   const [toggle, setToggle] = useState(false);
   var mobileLogo = {
     color: "#1A6DD9",
@@ -22,7 +22,7 @@ const MobileMenu = () => {
     }
    }, [])
   return (
-    <div className={scrolled ? "mobile-menu sticky" : "mobile-menu"}>
+    <div className={sticky && scrolled ? "mobile-menu sticky" : "mobile-menu"}>
       <div className="mobile-menu__container">
         <div className="mobile-menu__in">
           <div className="mobile-menu__logo">

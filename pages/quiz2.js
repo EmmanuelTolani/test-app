@@ -13,8 +13,8 @@ import MainLayout from "../src/layouts/MainLayout";
 export default function Test() {
   return (
     <MainLayout>
-      <MobileMenu />
-      <Header />
+      <MobileMenu sticky={false} />
+      <Header sticky={false}/>
       <Quiz2 />
       <Footer />
     </MainLayout>

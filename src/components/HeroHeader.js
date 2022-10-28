@@ -1,12 +1,12 @@
 import React from "react";
 import Link from "next/link";
-import Header from "./UI/Header";
+import HeaderAlt from "./UI/HeaderAlt";
 import MobileMenu from "./UI/MobileMenu";
 
 const HeroHeader = () => {
   return (
     <div className="hero-header">
-    <Header />
+    <HeaderAlt />
     <div className="hero">
       <div className="hero__image">
         <div className="hero__info">

@@ -70,7 +70,6 @@
         margin-left: 20px;
         font-size: 1.2rem;
         text-transform: capitalize;
-
         &:hover {
             background-color: #374A7C;
             color: white;
@@ -138,16 +137,14 @@
 }
 
 .choose-quiz {
-    background: #0F8BFD;
+    background: rgba(0,0,0,0.6);
     padding: 30px 100px;
     margin: 20px;
     cursor: pointer;
-    opacity: 0.5;
     transition: .3s ease-in-out;
-
+    z-index: -1;
     &:hover {
-        opacity: 1;
-
+        background: #0F8BFD;
         a {
             scale: (1.2);
             transition: .3s ease-in-out;
